@@ -5,7 +5,7 @@ import sys
 CARPETA_REPORTES = "./reportes_diarios"
 
 def limpiar_reportes_antiguos():
-    print("--- INICIANDO MANTENIMIENTO AUTOMATIZADO ---")
+    print("--- FINALIZANDO MANTENIMIENTO AUTOMATIZADO ---")
     
     # CONTROL DE SEGURIDAD: Si el alumno olvidó crear la carpeta, el script falla.
     if not os.path.exists(CARPETA_REPORTES):

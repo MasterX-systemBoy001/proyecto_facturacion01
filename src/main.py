@@ -17,7 +17,7 @@ def ejecutar_interfaz_cajero():
         print(f"Descuento      : S/ {factura['descuento']:.2f}")
         print(f"Subtotal Neto  : S/ {factura['subtotal_neto']:.2f}")
         print(f"IGV (18%)      : S/ {factura['igv']:.2f}")
-        print(f"TOTAL A PAYAR  : S/ {factura['total_pagar']:.2f}")
+        print(f"TOTAL A PAGAR  : S/ {factura['total_pagar']:.2f}")
 
         sys.exit(0)
     else:
